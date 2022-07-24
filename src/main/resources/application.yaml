@@ -1,0 +1,16 @@
+# Get these values via Azure AD / application in Azure Portal
+spring:
+  cloud:
+    azure:
+      active-directory:
+        enabled: true
+        profile:
+          tenant-id: OVERWRITE-ME
+        credential:
+          client-id: OVERWRITE-ME
+          client-secret: OVERWRITE-ME
+
+# Credential for SBA client to connect to
+client:
+  username: client
+  password: z41usm6DVAfWDgtCYtqs
